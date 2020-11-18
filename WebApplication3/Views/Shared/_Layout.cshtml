@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bridges Template</title>
+    @Styles.Render("~/Content/main.css")
+
+    
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header_box">
+            <div id="header_logo">
+                <a href="#"><img src="~/Content/images/logo_autko.png" alt="Logo" /></a>
+            </div>
+            <div id="header_menu">
+                <ul>
+                    <li><a href="#">Strona główna</a></li>
+                    <li><a href="#">O nas</a></li>
+                    <li><a href="#">Oferta</a></li>
+                    <li><a href="/Account/Login">Zaloguj się</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header_main">
+            <div id="header_main_text">
+                <h2>Opis serwisu</h2>
+                <p>
+                    Moje autko oferuje klientom znalezienie najbliższego warsztatu w okolicy oraz zgłoszenie usterki. Dodatkowno klient może pobrac dane kontaktowe do wybranego mechanika i samodzielnie zarezerwować termin.
+                </p>
+                <img src="~/Content/images/text_separator.png" />
+                <p>
+                    Skorzystanie z usługi jest bardzo proste. Rejestracja zajmuję chwilę, po zalogowanie możesz przejść do wyboru warsztatu i wysłania zgłoszenia
+                </p>
+                <a href="#">ZAREJESTRUJ SIĘ</a>
+            </div>
+            <div id="header_main_image">
+                <img src="~/Content/images/autko_obraz.png" alt="Image" />
+            </div>
+        </div>
+        <div id="boxy">
+            <div id="boxy_navig">
+                <ul>
+                    <li><a href="#">Strona główna</a></li>
+                    <li><a href="#">O nas</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Zaloguj się</a></li>
+                </ul>
+            </div>
+           
+        </div>
+        @RenderBody()
+        <div id="footer">
+           
+        </div>
+    </div>
+</body>
+</html>
