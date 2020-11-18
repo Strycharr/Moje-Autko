@@ -180,14 +180,12 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Zaloguj.cshtml" />
     <Content Include="Views\Shared\_LayoutPage2.cshtml" />
-    <Content Include="Views\Login\Login.cshtml" />
-    <Content Include="Views\Logowanie\Suksec.cshtml" />
-    <Content Include="Views\Logowanie\Error.cshtml" />
-    <Content Include="Views\Login\VerifyLogin.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\VerifyLogin.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Content\Style\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
